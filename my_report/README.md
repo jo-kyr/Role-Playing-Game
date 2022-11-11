@@ -65,3 +65,8 @@ In order to share the game, I downloaded the WebGl platform and build the main s
 
 
 # Sources
+
+* https://learn.unity.com/project/ruby-s-2d-rpg?uv=2020.3
+* https://pipoya.itch.io/pipoya-free-rpg-character-sprites-nekonin
+* https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
+
