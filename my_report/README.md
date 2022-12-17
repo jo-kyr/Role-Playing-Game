@@ -4,7 +4,7 @@
 ### University Registration Number: dpsd18058
 ### GitHub Personal Profile: jo-kyr
 ### Digital & Serious Games Personal Repository: https://github.com/jo-kyr/Role-Playing-Game
-### Game Link: jo-kyr.github.io/Role-Playing-Game/
+### Game Link: jo-kyr.github.io/Role-Playing-Game/ 
 
 # Introduction
 
