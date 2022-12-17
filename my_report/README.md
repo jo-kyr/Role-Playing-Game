@@ -44,7 +44,7 @@ In order to share the game, I downloaded the WebGl platform and build the main s
 ![neko_final_Trim (1)](https://user-images.githubusercontent.com/97399069/201435508-2f7c65aa-51a3-4509-a2f5-a038d46b63c4.gif)
 
 # 2nd Deliverable
-Before continuing with the rest of the assignment, I decided to make a new, larger level for the game, so that the new elements will not overcrowd the game.
+Before continuing with the rest of the assignment, I decided to make a new, larger level, so that the new elements will not overcrowd the game.
 
 ![level](https://user-images.githubusercontent.com/97399069/208247949-f995e7b3-5987-4e9a-8211-9a7b4c57e142.png)
 
