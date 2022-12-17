@@ -60,6 +60,10 @@ After deciding on what the player will be able to collect, I made some simple sp
 
 ![collectibles](https://user-images.githubusercontent.com/97399069/208247960-a074849f-d6db-4656-9462-c58bbe4b4120.png)
 
+https://user-images.githubusercontent.com/97399069/208248916-8e80e98b-c3f7-48ac-9160-8425abd256d5.mp4
+
+https://user-images.githubusercontent.com/97399069/208248940-786a9a08-cbed-4dca-8215-8872027276ab.mp4
+
 #### World Interactions - Enemies
 After finding the enemy sprite I wanted to use, I imported it into Unity and added to the scene. After following the tutorial and making some changes to fit my game, the player now loses health when they make contact with the enemy.
 
@@ -73,7 +77,7 @@ After studying the Ruby tutorial, I used the sprite editor to slice the player s
 #### World Interactions - Projectiles
 This section required a lot of trial and error. I wanted the player to have two bullet types that they can switch between: pink and purple, with the purple inflicting more damage. The first step was to get the firing mechanism to work (mapped to "E"), according to the tutorial. There were some issues with the bullet not colliding correctly, but I managed to solve them by sorting the objects differently into layers. The second step was to enable the bullet switching (mapped to "Q"). After combining various online tutorials, I ended up using two switch cases. The first to actually switch the "active" bullet for the player, and the second to check which bullet is active and fire it. Lastly, I connected the pink and purple collectibles to the bullets, so that the player's ammo increases and decreases accordingly.
 
-![switch](https://user-images.githubusercontent.com/97399069/208248133-609b8f25-a954-4e56-bee1-6717cf150b3c.gif)
+https://user-images.githubusercontent.com/97399069/208248976-a3c41957-16d9-4fc1-8618-6e10eda7b565.mp4
 
 The code in this section - in combination with the collectibles - can certainly be simplified, so that will be a priority for the final delivery of this assignment.
 
