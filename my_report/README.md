@@ -115,9 +115,11 @@ After listing the interactions that I needed sounds for, I searched online for g
 #### Start Menu
 Firslty, I had to create another level for the game. I found a maze pattern online and used the tile pallet to recreate it. Then I popullated the level with props, enemies and collectibles. Since I saved all my objects as assets (with their scripts, animations, explosions etc) the process of creating another level was very quick and easy.
 
-https://user-images.githubusercontent.com/97399069/211306063-2c7e4e3a-0dc4-4437-94f0-a0a6cd1a02d4.mp4
+![level2](https://user-images.githubusercontent.com/97399069/211306977-68006633-8833-47e8-b7aa-44193260d469.png)
 
 In order to create a Start Menu for the game, I followed a simple Youtube tutorial that I found. Firslty, I created a new scene then added some UI elements (buttons and text). Then the last thing I had to do was connect the buttons' "OnClick" function to the different levels. Using the same method, I created two more scenes, one  for the end of each level and connected them all together. 
+
+https://user-images.githubusercontent.com/97399069/211306063-2c7e4e3a-0dc4-4437-94f0-a0a6cd1a02d4.mp4
 
 https://user-images.githubusercontent.com/97399069/211306101-0f56acde-173c-4992-9f0c-5a3d4e15d6cf.mp4
 
