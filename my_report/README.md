@@ -92,20 +92,37 @@ In order to share the game, I built the main scene in WebGL and uploaded the Bui
 #### Visual Styling - Particles
 After studying the 'Ruby' tutorial, as well as some other online resources, I made my own particle effect. I used this as a base, twicking as needed, for all the "explosions" I wanted for the game. I mainly changed the sprite images (so that the color matches the object exploding) and the starting speed, size and spread (so that each effect gives a different impression). I added these effects to the bullets, the enemies, the player and the chest.
 
+https://user-images.githubusercontent.com/97399069/211305717-ed58edbc-6ced-4880-90ab-48f11302c2e0.mp4
+
 #### Visual Styling - User Interface & Head Up Display
 Firstly, I searched online for some user interface elements that I felt matched the aesthetic of the game. I found a wooden collection at Freepik, which I downloaded and edited in Adobe Illustrator in order to seperate the elements and keep the ones I needed. Following the tutorial I made the health bar, then applied the same logic for the speed bar and the bullet/ammo counters. Lastly, I created a score counter. The player gains 'xp' when picking up a collectible (different amount depending on the type) or killing an enemy. If the player gets hit by an enemy, they lose 'xp'.
+
+https://user-images.githubusercontent.com/97399069/211305840-a00c098b-174e-4345-8e96-2b7d835c59c4.mp4
 
 #### World Interactions - Dialog Raycast
 Following the tutorial, I created my own NPC character that the player can interact with. There was an issue with the Raycast not recognizing the Layer that the NPC was on (even when bit shifting the layer number) which I ultimately couldn't solve and had to work around it. I mapped the interaction to the 'R' key. When the player nears the NPC, a pop-up apperas that shows which button to use to interact. I achieved this with a box collider that triggers the pop-up. This could also be done with Raycast, but I wanted to test both methods.
 
+https://user-images.githubusercontent.com/97399069/211305920-86d36e8a-0e68-433a-9947-62c43167c34a.mp4
+
 #### World Interactions - Teleportation
-Firstly, I had to decide what the player would be using to teleport across the level. In the tileset I downloaded I found a "shrine"
+Firstly, I had to decide what the player would be using to teleport across the level. In the tileset I downloaded I found a prop that I felt was appropriate. I placed two on different ends of the level. Then, using what I learned about Raycasting while making the NPC interaction, as well as a relevant Youtube video, I turned the props into portals that the player can use to travel back and forth through the level. There were some minor adjustments on the box collider and the pivot point of the objects, so that the player spawns towards the middle. I also added the 'R' key pop-up here, so it is clear how the portals work.
+
+https://user-images.githubusercontent.com/97399069/211305990-7b98759c-ef6c-4a67-bf83-9ef4ef8d5968.mp4
+
 #### Audio
+After listing the interactions that I needed sounds for, I searched online for game sound effects and found some on Pixabay. I downloaded the audios in mp4 format and edited them to the desired length. Then, following the 'Ruby' tutorial, I added the sound effects to different interactions, like picking up a collectible, shooting a bullet or killing an enemy. Through code, I adjusted the volume of each audio clip to be distinguishable from the background music, but not too much louder.
+
 #### Start Menu
+Firslty, I had to create another level for the game. I found a maze pattern online and used the tile pallet to recreate it. Then I popullated the level with props, enemies and collectibles. Since I saved all my objects as assets (with their scripts, animations, explosions etc) the process of creating another level was very quick and easy.
+
+https://user-images.githubusercontent.com/97399069/211306063-2c7e4e3a-0dc4-4437-94f0-a0a6cd1a02d4.mp4
+
+In order to create a Start Menu for the game, I followed a simple Youtube tutorial that I found. Firslty, I created a new scene then added some UI elements (buttons and text). Then the last thing I had to do was connect the buttons' "OnClick" function to the different levels. Using the same method, I created two more scenes, one  for the end of each level and connected them all together. 
+
+https://user-images.githubusercontent.com/97399069/211306101-0f56acde-173c-4992-9f0c-5a3d4e15d6cf.mp4
+
 #### Build, Run, Distribute
-
-# Conclusions
-
+In order to share the game, I built the main scene in WebGL and uploaded the Build, Template Data and index files to GitHub.
 
 # Sources
 
@@ -113,4 +130,8 @@ Firstly, I had to decide what the player would be using to teleport across the l
 * https://pipoya.itch.io/pipoya-free-rpg-character-sprites-nekonin
 * https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
 * shorturl.at/anpIW
+* https://www.youtube.com/watch?v=zc8ac_qUXQY
+* https://www.youtube.com/watch?v=0JXVT28KCIg
+* https://pixabay.com/sound-effects/
+* https://www.freepik.com/
 
