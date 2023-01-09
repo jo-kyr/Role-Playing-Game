@@ -90,9 +90,16 @@ In order to share the game, I built the main scene in WebGL and uploaded the Bui
 
 # 3rd Deliverable 
 #### Visual Styling - Particles
+After studying the 'Ruby' tutorial, as well as some other online resources, I made my own particle effect. I used this as a base, twicking as needed, for all the "explosions" I wanted for the game. I mainly changed the sprite images (so that the color matches the object exploding) and the starting speed, size and spread (so that each effect gives a different impression). I added these effects to the bullets, the enemies, the player and the chest.
+
 #### Visual Styling - User Interface & Head Up Display
+Firstly, I searched online for some user interface elements that I felt matched the aesthetic of the game. I found a wooden collection at Freepik, which I downloaded and edited in Adobe Illustrator in order to seperate the elements and keep the ones I needed. Following the tutorial I made the health bar, then applied the same logic for the speed bar and the bullet/ammo counters. Lastly, I created a score counter. The player gains 'xp' when picking up a collectible (different amount depending on the type) or killing an enemy. If the player gets hit by an enemy, they lose 'xp'.
+
 #### World Interactions - Dialog Raycast
+Following the tutorial, I created my own NPC character that the player can interact with. There was an issue with the Raycast not recognizing the Layer that the NPC was on (even when bit shifting the layer number) which I ultimately couldn't solve and had to work around it. I mapped the interaction to the 'R' key. When the player nears the NPC, a pop-up apperas that shows which button to use to interact. I achieved this with a box collider that triggers the pop-up. This could also be done with Raycast, but I wanted to test both methods.
+
 #### World Interactions - Teleportation
+Firstly, I had to decide what the player would be using to teleport across the level. In the tileset I downloaded I found a "shrine"
 #### Audio
 #### Start Menu
 #### Build, Run, Distribute
@@ -105,4 +112,5 @@ In order to share the game, I built the main scene in WebGL and uploaded the Bui
 * https://learn.unity.com/project/ruby-s-2d-rpg?uv=2020.3
 * https://pipoya.itch.io/pipoya-free-rpg-character-sprites-nekonin
 * https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
+* shorturl.at/anpIW
 
