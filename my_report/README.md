@@ -5,6 +5,7 @@
 ### GitHub Personal Profile: jo-kyr
 ### Digital & Serious Games Personal Repository: https://github.com/jo-kyr/Role-Playing-Game
 ### Game Link: jo-kyr.github.io/Role-Playing-Game/ 
+### Presentaion: https://docs.google.com/presentation/d/13t2SPt1TGGKHnZKsBxWMwalj1I2_HcM1Cx1K9yEuayU/edit?usp=share_link
 
 # Introduction
 In this report, I will illustrate the steps I followed in order to create my first 2D game in Unity. This project was an assignment withing the course of the subject: Digital & Serious Games of the Department of Product and Systems Design Engineering, University of the Aegean.
