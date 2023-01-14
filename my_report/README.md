@@ -10,6 +10,9 @@
 # Introduction
 In this report, I will illustrate the steps I followed in order to create my first 2D game in Unity. This project was an assignment withing the course of the subject: Digital & Serious Games of the Department of Product and Systems Design Engineering, University of the Aegean.
 
+# Summary
+This project was split into three deliverables, each with its own task list. The 1st Deliverable consisted of creating a Unity 2D file with the right settings, making the player sprite responsive to input and designing the game world with tilemaps. The 2nd Deliverable required the most work out of the three, and aimed at making the world around the player interactive. This was achieved by blocking the player's movement, animating the player and enemy sprites, creating collectibles and projectiles. The 3rd and last Deliverable was two-fold. On one hand it strived for visual styling and immersion through particle effects, user interface design and sound effects. On the other hand, it further developed the player's interactions with the world using Raycast, by creating NPC dialogue and teleportation.
+
 # 1st Deliverable
 
 #### Initial Settings
@@ -123,6 +126,9 @@ https://user-images.githubusercontent.com/97399069/211306101-0f56acde-173c-4992-
 
 #### Build, Run, Distribute
 In order to share the game, I built the main scene in WebGL and uploaded the Build, Template Data and index files to GitHub.
+
+# Conclusion
+Overall, this project was a great first experience with game design and Unity. The deliverables dissected the process into smaller steps, which made it easier to focus on each task without getting overwhelmed. During this project, my main goal was to learn the basic mechanics of game developement. Now that I believe I have chieved that, if I were to further develope this project in the future, I would like to make it a more immersive and challenging experience. Firstly, I would design my own charcters and graphic elements, for a more seamless aesthetic. Secondly, I would add more weapons and melee attacks that the player can unlock throughout the game. Thirdly, I would design more complex levels, with elements of puzzle solving. Last but not least, I would create a story that the player can unveil while playing the game.
 
 # Sources
 
